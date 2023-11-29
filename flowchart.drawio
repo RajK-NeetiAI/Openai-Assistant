@@ -1,0 +1,95 @@
+<mxfile host="Electron" modified="2023-11-29T10:03:35.631Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="glzsxs1mjqR0Fc75lTuJ" version="22.1.2" type="device">
+  <diagram name="Page-1" id="VpoCQIiux_PpDLpzfZ_F">
+    <mxGraphModel dx="1120" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pfY6BJJU3sWqnXnripJl-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pfY6BJJU3sWqnXnripJl-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Receive Message on a messaging platform&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Openai GPTs&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="344" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pfY6BJJU3sWqnXnripJl-3" target="pfY6BJJU3sWqnXnripJl-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-3" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pfY6BJJU3sWqnXnripJl-7" target="pfY6BJJU3sWqnXnripJl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pfY6BJJU3sWqnXnripJl-7" target="pfY6BJJU3sWqnXnripJl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Check&lt;br&gt;thread&lt;br&gt;id?&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="60" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pfY6BJJU3sWqnXnripJl-8" target="pfY6BJJU3sWqnXnripJl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Create a new thread&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pfY6BJJU3sWqnXnripJl-10" target="pfY6BJJU3sWqnXnripJl-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Add message to the thread id&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Yes&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-13" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="555" y="90" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Query&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pfY6BJJU3sWqnXnripJl-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-16" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Start the run of the thread&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="360" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pfY6BJJU3sWqnXnripJl-20" target="pfY6BJJU3sWqnXnripJl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pfY6BJJU3sWqnXnripJl-20" target="pfY6BJJU3sWqnXnripJl-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-20" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Check&lt;br&gt;run&lt;br&gt;status?&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pfY6BJJU3sWqnXnripJl-21" target="pfY6BJJU3sWqnXnripJl-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-21" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Completed&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="500" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-23" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Retrive the assistant message and send it to the user.&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pfY6BJJU3sWqnXnripJl-25" target="pfY6BJJU3sWqnXnripJl-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-25" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Required action&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="500" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pfY6BJJU3sWqnXnripJl-27" target="pfY6BJJU3sWqnXnripJl-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfY6BJJU3sWqnXnripJl-27" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Get the data needed to run the function, call the function, submit the function output&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
